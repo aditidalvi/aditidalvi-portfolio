@@ -1,9 +1,18 @@
 /* navbar */ 
 
 body{
-    margin:0;
+    margin: 0;
     padding:0;
    
+}
+header img{
+    width: 50%;
+    padding: 1rem;
+
+}
+
+header{
+    margin-bottom: 3rem;
 }
 
 h1{
@@ -92,17 +101,65 @@ h1{
     margin-bottom: 0.5rem;
 }
 
+.section-blog{
+    /*background-color: #D1FAE5;*/
+    background-color: #CCFBF1;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    padding: 3rem;
+    margin: 1.5rem;
+    
+}
+.section-blog h2{
+    margin-top: 0.1rem;
+    margin-bottom: 0rem;
+}
+
+.section-blog p{
+    font-size: large;
+}
+
+
+
 
 .container{
+    width: 90%;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+  
+  padding:1rem;
+    margin: auto;
+    
+    
+}
+
+.Container{
+    width: 80%;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+  
+  padding:1.5rem;
+    margin: auto;
+    text-align: center;
+}
+
+.Container p{
+    
+    text-align: justify;
+   
+}
+
+
+
+.containers{
     width: 85%;
     font-family: 'Atkinson Hyperlegible', sans-serif;
     padding: 1rem;
     
+    
 }
+
 
 .link{
     text-decoration: none;
-    padding: 0.3rem 1rem;
+    padding: 0.3rem 2rem;
     margin:0.3rem;
 }
 
@@ -127,19 +184,73 @@ h1{
     color: white;
 }
 
+
+
+
+/* header */
+header h2{
+    font-size: 2.3rem;
+   
+}
+
+
+
 /* footer */
 footer{
-    background-color: #2DD4BF;
+    background-color: #14B8A6;
     padding: 1rem;
     color: white;
-    font-family: 'Poppins';
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 1.1rem;
+
 }
 
 footer img{
-    padding-left: 1rem;
+    /*padding-left: 1rem;*/
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 3%;
 }
 
-@media screen and (max-width:400px) {
+footer h3{
+    margin-bottom: 0.75rem;
+    margin-top: 0.5rem;
+    
+   
+}
+
+
+:root{
+    
+    --off-white:#f3f4f6;
+}
+
+.ow{
+    background-color: var(--off-white);
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    font-size: larger;
+    }
+
+.ow h3{
+    margin-top: 0rem;
+    font-size: 1.7rem;
+    margin-bottom:0.5rem;
+}
+
+.w{
+    
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    font-size: larger;
+}
+.w h3{
+    margin-top: 0rem;
+    font-size: 1.7rem;
+    margin-bottom:0.5rem;
+}
+
+@media screen and (max-width:700px) {
     .link{
         display: block;
     }
@@ -168,5 +279,59 @@ footer img{
     .navbar-links.active{
         display: flex;
     }
+    .containers{
+      /*  width: 98%; */
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        padding: 1rem;
+        
+    }
+    
+    .section-blog{
+        padding: 1.5rem;
+    }
+
+    
+    .Container img{
+        width: 100%;
+    }
+   
+    .link-primary{
+        width:50%;
+    }
+    .link-secondary{
+        width:50%;
+    }
+
+/*
+    .skills h3{
+        font-size: larger;
+    }
+*/
+    header img{
+        width: 90%;
+    }
+    /*
+    header h2{
+        font-size: larger;
+    }
+*/
+
+
+    footer img{
+        width: 7%;
+    }
+
+    footer h3{
+        font-size: medium;
+    }
+
+    footer p{
+        font-size: medium;
+    }
+
+   
+
     
 }
+
+

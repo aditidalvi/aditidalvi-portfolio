@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> blogs | aditidalvi </title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="brand-title">ADITI DALVI</div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="index.html" class="in-active">HOME</a></li>
+                <li><a href="projects.html" class="in-active">PROJECTS</a></li>
+                <li><a href="blogs.html" class="actives" >BLOGS</a></li>
+                <li><a href="#contact" class="in-active" >CONTACT</a></li>
+            </ul>
+        </div>
+
+    </nav> 
+
+    <div class="Container">
+        <h1> Introduction to CSS </h1>
+    </div>
+    <center>
+        <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/CSS.png" style="width: 70%;" ></center>
+    <div class="Container">
+        <br/>
+        <br/>
+        <h2> What is CSS? </h2>
+        <p>Css is the short form of Cascading Styles Sheets. It provides visual styling and layout for everything on a webpage i.e. with the help of css you can change the text's size,color,font, add background image to website etc. We can make a simple HTML page look good with the help of css.
+            We can add simple animations and interactions through css for example: a button’s color changes when we hover on it thus giving a clickable effect.
+            </p>
+           
+         
+            <br>
+            <h2> Types of CSS </h2>
+            <p>There are three types of css through which we can link it to the Html page which are as follows:
+            </p>
+            <p>  <b>1. External Css</b>: This contains a separate CSS file saved with ‘.css’ extension. This file can be applied to the html document by referencing it within the head tag of the html document with the help of 'link' element. This is generally used when we want to apply same styles to multiple html pages.</p>
+            <section class="ow" style="text-align: left; font-size: medium;">
+                <span><</span>head<span>></span>
+                <br>
+                <span><</span>link rel="stylesheet" href="styles.css"<span>></span>
+                <br>
+                <span><</span>/head<span>></span>
+            </section>
+            <p> Here in this link element there are two attributes which are 'rel' and 'href'. The rel attribute tells the browser what relationship it has with the linked document.
+             </p>
+           
+             <p> Here rel="stylesheet" tells the browser that we are importing a stylesheet.</p>
+             <p> The 'href' attribute contains the path to our css file which has styles we want to apply to our html file.</p>
+             
+            <p> <b>2. Inline Css</b>: This uses the style attribute which is added to the opening of the html tag. The Css style rules are added as value to the style attribute which then applies the style directly to the content which is mentioned between this opening and closing html tag. This is normally used when you want to apply a particular style to a particular html element only.
+            </p>
+            <section class="ow" style="text-align: left; font-size: medium;">
+                <span><</span>h1 style="color:green"<span>></span>
+                Heading
+                <span><</span>/h1<span>></span>
+            </section>
+            <p>In the above example heading font color would be green. </p>
+            <p><b>3. Internal Css</b>:  Here the Css is added within the  ‘style’ tag within the  head of the html document. </p>
+            <section class="ow" style="text-align: left; font-size: medium;">
+                <span><</span>head<span>></span>
+                <br>
+                <span><</span>style<span>></span>
+                <br>
+                p{
+                    <br>
+                    color:blue;
+
+                    <br>
+                }
+                <br>
+                <span><</span>/style<span>></span>
+                <span><</span>/head<span>></span>
+            </section>
+              <p> In the above example the text color of the paragraph would be blue. </p>
+              <br>
+              <h2> Let's Revise</h2>
+              <p> So in short Css is a way we can beautify our simple html pages. To use Css with Html we can either use a external file by linking it with our html page or we can add styles to our style tag within the head of html document. Inline css can also be used to add css to our html document but it is most preferred when we want to add a different style to an element.
+              </p>
+    </div>
+    <center>
+    <footer id="contact">
+        
+        <a href="https://github.com/aditidalvi"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/github.png"/></a>
+        <a href="https://www.linkedin.com/in/aditi-dalvi-a797b41b2"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/linkedin.png"/></a>
+        <hr style="color: #F9FAFB"/>
+        <p>	&copy; 2O21, Built with Html,Css and Javascript</p>
+    </footer>
+</center>
+  
+    <script src="nav.js" type="text/javascript"></script>
+</body>
+</html>
