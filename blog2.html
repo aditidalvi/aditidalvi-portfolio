@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> blogs | aditidalvi </title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="brand-title"><a href="index.html" style="color: white; text-decoration: none;">ADITI DALVI</a></div>
+        
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="index.html" class="in-active">HOME</a></li>
+                <li><a href="projects.html" class="in-active">PROJECTS</a></li>
+                <li><a href="blogs.html" class="actives" >BLOGS</a></li>
+                <li><a href="#contact" class="in-active" >CONTACT</a></li>
+            </ul>
+        </div>
+
+    </nav> 
+    <div class="Containers">
+        <h1> Introduction to CSS Selectors </h1>
+    </div>
+    <center>
+        <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/CSS.png" style="width: 70%;" ></center>
+        <div class="Containers">
+        <br/>
+        <br/>
+        <h2> What are CSS Selectors? </h2>
+        <p > Css Selectors are used to apply styles to the html element you want to.  Css Selectors select Html elements according to its id, class, type, attribute etc </p>
+
+        <br>
+            <h2> Types of CSS Selectors </h2>
+            <p>The different types of Css selectors are as follows:</p>
+            <p><b>1. Element Selector</b>: This is the most basic kind of selectors which matches the particular style to the particular html element mentioned.
+            </p>
+            <section class="ow" style="text-align: left; font-size: medium;">
+               h1{
+                   <br>
+                   color:red;
+                   <br>
+               }
+            </section>
+            <p>This will turn the text color to red of all the elements belonging to the h1 tag of the html document.</p>
+            <p><b>2. Universal Selector</b>: This applies styles to all the elements of the html document irrespective of which type,class or id they belong to the html document. It is denoted by ‘*’ .</p>
+            <section class="ow" style="text-align: left; font-size: medium;">
+                *{
+                    <br>
+                    text-align:center;
+                    <br>
+
+                }
+
+            </section>
+            <p>This will align all the contents of the html document to the center of the web page.
+            </p>
+<p><b>3. Class Selector</b>: This applies style to the class attribute of the html document. To select elements with the specific class we use the ‘.’ symbol at the starting followed by the class name to which we want to apply styles.</p>
+<section class="ow" style="text-align: left; font-size: medium;">
+<span><</span>p class=”fancy”<span>></span>
+Fancy Paragraph<span><</span>/p<span>></span>
+<br>
+.fancy{
+    <br>
+    font-style:italic;
+    <br>
+    font-weight:bold;
+    <br>
+    } 
+    
+</section>
+<p>This will make the contents of the fancy class italic and bold.
+</p>
+<p><b>4. Id selector</b>: This applies the style to the id attribute of the html document. To select elements with the specific id we use the ‘#’ symbol at the starting followed by the id name to which we want to apply styles.
+</p>
+<section class="ow" style="text-align: left; font-size: medium;">
+<span><</span>section id=”#sections”<span>></span>
+<br>
+<span><</span>p> Paragraph 1 <span><</span>/p>
+<br>
+<span><</span>p> Paragraph 1 <span><</span>/p>
+<br>
+<span><</span>/section>
+<br>
+#sections{
+    <br>
+    color:red
+    <br>
+}
+
+</section>
+<p> This would change the color of content of id sections to red.
+</p>
+<p><b>5.Grouping Selector</b>:  This selector is used to make a group of the html elements which have the same style definitions. To group selectors we separate each selector by a ‘,’.
+
+</p>
+<section class="ow" style="text-align: left; font-size: medium;">
+
+    h1,h2,p{
+        <br>
+        color:green;
+        <br>
+        text-align:center;
+        <br>
+    }
+
+</section>
+<p> This would change the color of the contents within the h1,h2 and p tag to green and align them to center. </p>
+<h2> Let's Revise </h2>
+        <table>
+            <tr>
+              <th>Selector Example</th>
+              <th>Example Description</th>
+            </tr>
+            <tr>
+              <td>#sections</td>
+              <td>Selects the element with the id="sections"</td>
+            </tr>
+            <tr>
+              <td>.fancy</td>
+              <td>Selects the element with the class="sections"</td>
+            </tr>
+            <tr>
+                <td>*</td>
+                <td>Selects all the elements</td>
+              </tr>
+              <tr>
+                <td>h1</td>
+                <td>Selects all the <span><</span>h1> element</td>
+              </tr>
+              <tr>
+                <td>h1,h2,p</td>
+                <td>Selects all the <span><</span>h1>,<span><</span>h2> and <span><</span>p> elements</td>
+              </tr>
+              
+
+          </table>
+          
+        </div>
+        <center>
+        <footer id="contact">
+        
+            <a href="https://github.com/aditidalvi"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/github.png"/></a>
+            <a href="https://www.linkedin.com/in/aditi-dalvi-a797b41b2"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/linkedin.png"/></a>
+            <hr style="color: #F9FAFB"/>
+            <p>	&copy; 2O21, Built with Html,Css and Javascript</p>
+        </footer>
+    </center>
+        
+        <script src="nav.js" type="text/javascript"></script>
+</body>
+</html>

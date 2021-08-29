@@ -140,11 +140,33 @@ h1{
     text-align: center;
 }
 
+.Containers{
+    width: 70%;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+  
+  padding:1.5rem;
+    margin: auto;
+    text-align: center;
+}
+
+.Containers p{
+    text-align: justify;
+}
+
 .Container p{
     
     text-align: justify;
    
 }
+
+table,tr,td,th{
+    border:0.3px solid black;
+}
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
 
 
 
