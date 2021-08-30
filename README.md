@@ -9,3 +9,6 @@ For now I know:
 1. Repl.it
 1. Node.js
 1. CHALK
+2. Reactjs
+3. Html
+4. Css
